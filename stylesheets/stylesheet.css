@@ -1,4 +1,30 @@
-body{
-    color:red;
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
 }
+html, body, .wrapper{
+    color:red;
+    height: 100%;
+    font-family: Monaco;
+}
+
+.left{
+    width:50%; 
+    background-color:black;
+    color:snow;
+    font-size: 48px;
+    float:left;
+    text-align: center;
+    height: inherit;
+}
+
+.right{
+    width:50%;
+    text-align: center;
+    float:right;
+    background-color:snow;
+    font-size:48px;
+    color:black;
+    height: inherit;
+}
+
